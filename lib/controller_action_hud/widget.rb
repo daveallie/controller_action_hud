@@ -32,7 +32,7 @@ module ControllerActionHUD
 
     module Helper
       def controller_action_hud_widget
-        html = Widget.css + Widget.html(params[:controller], params[:action])
+        html = Widget.css + Widget.html(controller_name, action_name)
         html.respond_to?(:html_safe) ? html.html_safe : html
       end
     end

@@ -4,7 +4,7 @@
 
 Add it to your Gemfile with
 ```
-gem 'controller_action_hud', git: 'git://github.com/daveallie/controller_action_hud.git'
+gem 'controller_action_hud'
 ```
 
 Now add the widget to your application layout, like
