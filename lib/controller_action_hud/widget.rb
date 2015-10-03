@@ -6,7 +6,7 @@ module ControllerActionHUD
         <<-EOF
         <style type="text/css">
           div#controller_action_hud {
-            position: absolute;
+            position: fixed;
             bottom: 0;
             right: 0;
             background-color: black;
