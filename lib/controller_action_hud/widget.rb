@@ -13,7 +13,7 @@ module ControllerActionHUD
             color: white;
             z-index: 999;
             padding: 4px 6px;
-            font: normal bold 12px/12px Arial, sans-serif;
+            font: normal 12px/12px Arial, sans-serif;
             cursor: pointer;
           }
         </style>
