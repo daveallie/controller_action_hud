@@ -17,5 +17,5 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = ControllerActionHUD::VERSION
 
-  gem.post_install_message = "Remember to put <%= controller_action_hud_widget if Rails.env.development? %> into your app layout."
+  gem.post_install_message = "Remember to put <%= controller_action_hud_widget if Rails.env.development? %> into your app layout. Stay hyped."
 end
